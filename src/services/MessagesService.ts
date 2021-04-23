@@ -1,5 +1,5 @@
-import { Repository } from 'typeorm';
-import { getCustomRepository } from 'typeorm';
+
+import { getCustomRepository,Repository  } from 'typeorm';
 import { Message } from '../entities/Message';
 import { MessagesRepository } from '../repositories/MessagesRepository';
 
